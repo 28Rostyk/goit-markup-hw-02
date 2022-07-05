@@ -1,0 +1,91 @@
+/* шрифти Roboto400, 500, 700 і 900 - основний , і Raleway700  */
+/* основний колір тексту - #757575 */
+/* другорядний колір тексту - #212121 */
+/* білий колір - #FFFFFF */
+/* акцент - #2196F3 */
+
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-text-color: #2196f3;
+  --white-color: #ffffff;
+}
+
+body {
+  background-color: var(--white-color);
+  color: var(--primary-text-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.header-logo {
+  color: #000000;
+}
+
+.brand {
+  color: var(--accent-text-color);
+}
+/* site nav */
+.site-nav .link {
+  color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-text-color);
+}
+/* address */
+.address .link {
+  color: var(--primary-text-color);
+}
+
+.address .link:hover,
+.address .link:focus {
+  color: var(--accent-text-color);
+}
+/* Hero */
+.hero {
+  background-color: #2f303a;
+}
+
+.hero-title {
+  color: var(--white-color);
+}
+
+.button {
+  background-color: #2196f3;
+  color: var(--white-color);
+}
+
+/* Section */
+.section-title {
+  color: var(--title-text-color);
+}
+
+.section-subtitle {
+  color: var(--title-text-color);
+}
+
+/* Footer */
+.page-footer {
+  background-color: #2f303a;
+}
+
+.footer-logo {
+  color: var(--white-color);
+}
+
+.footer-logo .web {
+  color: var(--accent-text-color);
+}
+
+.footer-address .link {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-address .link:hover,
+.footer-address .link:focus {
+  color: var(--white-color);
+}
