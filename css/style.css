@@ -83,6 +83,7 @@ body {
   background-color: var(--accent-text-color);
   color: var(--white-color);
   cursor: pointer;
+  border: none;
 }
 
 .button:hover,
@@ -153,6 +154,7 @@ body {
 .button-portfolio {
   background-color: #f5f4fa;
   color: var(--title-text-color);
+  border: none;
 }
 
 .button-portfolio:hover,
