@@ -153,6 +153,7 @@ body {
 .button-portfolio {
   background-color: #f5f4fa;
   color: var(--title-text-color);
+  cursor: pointer;
   border: none;
 }
 
