@@ -87,9 +87,8 @@ body {
 }
 
 .button:hover,
-.buttob:focus {
-  background-color: var(--white-color);
-  color: var(--accent-text-color);
+.button:focus {
+  background-color: #188ce8;
 }
 
 /* Section */
